@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const WeatterWraper = styled.div`
+const DayWraper = styled.div`
   width: 100%;
   background-color: rgb(255, 255, 255);
   font-size: 13px;
@@ -11,34 +11,7 @@ const WeatterWraper = styled.div`
   transition: all 0.2s ease 0s;
   border-radius: 5px;
   box-sizing: border-box;
-  margin: 40px auto;
-
-  .Weatter__Box {
-    display: block;
-
-    h1 {
-      margin-bottom: 0;
-      font-size: 22px;
-    }
-
-    .Weatter__Info {
-      display: flex;
-      align-items: center;
-      margin-top: 20px;
-
-      .temp {
-        font-size: 48px;
-      }
-    }
-    .Temp__Min__Max {
-      font-size: 18px;
-      padding-left: 20px;
-    }
-  }
-
-  .Weather__Card {
-    display: block;
-  }
+  margin: 0 auto;
 
   @media only screen and (min-width: 991px) {
     max-width: 800px;
@@ -48,4 +21,4 @@ const WeatterWraper = styled.div`
   }
 `;
 
-export default WeatterWraper;
+export default DayWraper;

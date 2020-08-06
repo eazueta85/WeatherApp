@@ -17,13 +17,13 @@ const WeatherProvider = ({ children }) => {
       const getWeather = async () => {
         await axiosClient
           .get(`weather?q=${city}&appid=${WEATHER_API_KEY}`)
-          .then((weather) => setWeatherData(weather.data));
+          .then( weather => setWeatherData(weather.data));
       };
 
       const getForecast = async () => {
         await axiosClient
           .get(`forecast?q=${city}&appid=${WEATHER_API_KEY}`)
-          .then((forecast) => {
+          .then( forecast => {
             const forecastDays = [];
             if (Object.entries(forecast).length) {
               //40 days
