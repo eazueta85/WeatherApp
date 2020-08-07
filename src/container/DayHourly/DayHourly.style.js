@@ -7,7 +7,7 @@ const DayWraper = styled.div`
   color: rgb(197, 197, 197);
   -webkit-box-shadow: 0 0 35px 0 rgba(154, 161, 171, 0.15);
   box-shadow: 0 0 35px 0 rgba(154, 161, 171, 0.15);
-  padding: 15px 20px 15px 45px;
+  padding: 15px 20px 30px 40px;
   transition: all 0.2s ease 0s;
   border-radius: 5px;
   box-sizing: border-box;
@@ -18,6 +18,13 @@ const DayWraper = styled.div`
     .Weather__Card {
       display: flex;
     }
+  }
+  .slick-next {
+    right: 0;
+  }
+  .slick-next:before,
+  .slick-prev:before {
+    color: #000;
   }
 `;
 

@@ -9,10 +9,10 @@ const DayCardWrapper = styled.div`
   div {
     display: flex;
     align-items: center;
+    text-align: center;
   }
 
   @media only screen and (min-width: 991px) {
-    max-width: 20%;
 
     div {
       display: block;

@@ -45,7 +45,7 @@ const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
     font-family: "Open Sans", sans-serif;
     font-size:13px;
-    padding: 0 15px;
+    
     background-color: #fafbfe;
 
   ul {
@@ -64,6 +64,10 @@ const GlobalStyle = createGlobalStyle`
   img {
     max-width: 100%;
     height: auto;
+  }
+  
+  main{
+    padding: 0 15px;
   }
 
   #root {
